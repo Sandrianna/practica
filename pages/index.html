@@ -6,37 +6,56 @@
     <title>Сайт-визитка</title>
     <link rel="stylesheet" href="../css/style.css">
 <body>
-    <header></header>
-    <main>
-        <nav class="navigation">
-            <a href="#">Главная</a>
-            <a href="about.html">Обо мне</a>
-            <a href="contacts.html">Контакты</a>
+    <header class="header">
+        <nav class="nav">
+            <a href="#about" class="nav-link">Обо мне</a>
+            <a href="#education" class="nav-link">Навыки</a>
+            <a href="#contacts" class="nav-link">Контакты</a>
         </nav>
-        <h1>Гончарик Александра</h1>
-        <img src="../images/venty.jpg" alt="venty">
-        <h2 class="about">Обо мне</h2>
-        <p>Меня зовут <strong>Александра</strong>, мне 20 лет, хочу изучить фронтэнд</p>
-        <p>Живу в <em>Гродно</em></p>
-        <h2>Образование</h2>
-        <p>Учусь в ГрГУ Янки Купалы на специальность "ПОИТ".<br> Окончила СШ №31</p>
-        <h2>Опыт работы</h2>
-        <p><i>Нет опыта работы</i></p>
-        <h2>Хобби</h2>
-        <p>Занимаюсь <b>конным спортом</b></p>
-        <h2>Как я стал разработчиком</h2>
-        <ul>
-            <li>22 февраля мой день рождения</li>
-            <li>29 января день рождения Егора</li>
-            <li>8 декабря начало отношений</li>   
-        </ul>
+    </header>
+    <main>
+        <h1 class="title">Гончарик Александра</h1>
+        <div class="img-wrapper">
+            <img src="../images/venty.jpg" alt="venty">
+        </div>
+        <div class="info">
+             <p class = "par">Hi</p>
+             <p class = "par">Hello</p>
+             <p class = "par">Bye</p>
+             <p class = "par">Cool</p>
+             <p class = "par">Nice</p>
+            <h2 class="about" id="about">Обо мне</h2>
+            <p>Меня зовут <strong>Александра</strong>, мне 20 лет, хочу изучить фронтэнд</p>
+            <p>Живу в <em>Гродно</em></p>
+        </div>
+        <div class="education">
+            <h2 class="educ" id="education">Образование</h2>
+            <p>Учусь в ГрГУ Янки Купалы на специальность "ПОИТ".<br> Окончила СШ №31</p>    
+        </div>
+        <div class="experience">
+            <h2>Опыт работы</h2>
+            <p><i>Нет опыта работы</i></p>
+        </div>
+        <div class="hobby">
+            <h2>Хобби</h2>
+            <p>Занимаюсь <b>конным спортом</b></p>
+        </div>
+       <div class="how">
+            <h2>Как я стал разработчиком</h2>
+            <ul class="list">
+                <li>22 февраля мой день рождения</li>
+                <li>Поступила в университет</li>
+                <li>Начала изучать программирование</li>   
+            </ul>
+       </div>
     </main>
     <footer>
-        <h2>Контакты</h2>
-        <p>Вк:
-            <a href="https://vk.com/alek_sandra01" alt="VK">Ссылка на мой вк</a>
+        <h2 id="contacts">Контакты</h2>
+        <p class="VK">Вк:
+            <a href="https://vk.com/alek_sandra01" alt="VK" class="VK-link">Ссылка на мой вк</a>
         </p>
         
     </footer>
+    <script src="../js/script.js"></script>
 </body>
 </html>

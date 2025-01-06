@@ -1,3 +1,113 @@
-.navigation:hover {
-    color: aqua;
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+.nav :hover {
+    color: rgb(0, 255, 140);
+    
+}
+
+body {
+    margin: 0;
+    display: block;
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    
+}
+
+.nav-link {
+    margin: 0 20px;
+    color: crimson;
+    text-decoration: none;
+    transition: color .2s;
+}
+
+main {
+    margin: 0 auto;
+    display: block;
+}
+
+.title {
+    color: deeppink;
+}
+
+h1 {
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    margin: 30px;
+}
+
+div {
+    display: block;
+}
+
+.img-wrapper {
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    border: 1px solid blanchedalmond;
+    width: 300px;
+}
+
+.info {
+    background-color: bisque;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkmagenta;
+    border-left: 5px solid palevioletred;
+    padding: 10px;
+    margin: 0;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.education {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.experience {
+    background-color: plum;
+    padding: 10px;
+}
+
+.hobby {
+    background-color: powderblue;
+    padding: 10px;
+}
+
+.how {
+    background-color: pink;
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    background-color: darksalmon;
+}
+
+.VK :hover {
+    color: aquamarine;
+}
+
+.VK-link {
+    color: deeppink;
+}
+
+.list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
